@@ -19,6 +19,7 @@
     "rollup-plugin-svelte": "^7.1.6",
     "sass": "^1.58.3",
     "svelte": "^4.2.9",
+    "svelte-copy": "^1.4.1",
     "svelte-preprocess": "^5.1.3"
   }
 }

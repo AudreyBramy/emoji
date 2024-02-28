@@ -1,14 +1,19 @@
 <script>
-	export let name;
+	import { copy } from 'svelte-copy';
 </script>
 
-<h2>Hello {name}! 🧝🏿</h2>
+<h2>Ma liste d'emojis clickable</h2>
+
+<ul>
+	<li > <button use:copy={'👍'}>👍</button></li>
+	<li > <button use:copy={'👏'}>👏</button></li>
+	<li > <button use:copy={'👀'}>👀</button></li>
+</ul>
 
 <style lang="scss">
 	
 	:global(main) {
-		text-align: center;
-		padding: 1em;
+		padding: 4em 20em;
 		max-width: 240px;
 		margin: 0 auto;
 
@@ -17,10 +22,17 @@
 		}
 	}
 
+	button {
+		background-color: white;
+		border: none;
+		font-size: 2em;
+		padding: 1em 0;
+	}
+
 	h2 {
-		color: #ff3e00;
+		color: #000;
 		text-transform: uppercase;
-		font-size: 4em;
+		font-size: 2em;
 		font-weight: 100;
 	}
 	
