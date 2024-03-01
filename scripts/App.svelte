@@ -3,13 +3,12 @@
 </script>
 
 <h2>Ma liste d'emojis clickable</h2>
-
 <ul>
-	<li > <button use:copy={'👍'}>👍</button></li>
-	<li > <button use:copy={'👏'}>👏</button></li>
-	<li > <button use:copy={'👀'}>👀</button></li>
+	<li > Pour dire que t'es d'accord <button use:copy={'👍'}>👍</button></li>
+	<li > Pour envoyer du réconfort ou du love <button use:copy={'💗 '}>💗 </button></li>
+	<li > Saluer <button use:copy={'👏'}>👏</button></li>
+	<li > Signaler que tu as bien vu <button use:copy={'👀'}>👀</button></li>
 </ul>
-
 <style lang="scss">
 	
 	:global(main) {
@@ -25,8 +24,8 @@
 	button {
 		background-color: white;
 		border: none;
-		font-size: 2em;
-		padding: 1em 0;
+		font-size: 1.5em;
+		padding: 0.5em 0;
 	}
 
 	h2 {
